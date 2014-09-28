@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="128" height="16" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Solarized" tilewidth="32" tileheight="32">
+  <image source="solarized.png" width="256" height="64"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="128" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztlbEOgDAIRKtLjQ7+/9+6E6tAoQW94SUOzQF3BGsppYJfsze+tWyEKFoeepm9oDvwlL2kNn1L31tqSTW5ela+z/BCoy3Nv6e2xxwSzd78e3dgVKZcbe79j37LPO8jtAEAIB+Lgtk9g7xE2ida+xg44wwfovgegTsPzgB9ZSLr/6LVmyR/zzkttKNnwN0l7zra/EE+3vYL+X8Xzn2h+a+G0H4stS36ic5sv5D///K/ANNGM8I=
+  </data>
+ </layer>
+</map>
