@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="128" height="16" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="128" height="18" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="Solarized" tilewidth="32" tileheight="32">
   <image source="solarized.png" width="256" height="64"/>
  </tileset>
- <layer name="Tile Layer 1" width="128" height="16">
+ <layer name="Background" width="128" height="18">
   <data encoding="base64" compression="zlib">
-   eJztlbEOgDAIRKtLjQ7+/9+6E6tAoQW94SUOzQF3BGsppYJfsze+tWyEKFoeepm9oDvwlL2kNn1L31tqSTW5ela+z/BCoy3Nv6e2xxwSzd78e3dgVKZcbe79j37LPO8jtAEAIB+Lgtk9g7xE2ida+xg44wwfovgegTsPzgB9ZSLr/6LVmyR/zzkttKNnwN0l7zra/EE+3vYL+X8Xzn2h+a+G0H4stS36ic5sv5D///K/ANNGM8I=
+   eJztlEEOgCAMBLkgxv8/2JOJIZhYaCnVOUzigSy1s6GklAoA/Jrj4buHvWKVLIu8yLtodeDJveTu+mx9XjNLmvk2T2vvHrvonVvif+Rui/+QZI76H+3ALKeS7Dfv/+pvmeX7SDaAjLzADODn/sJ7FvBz3+rAtsCMMM/9vQPbDe9ZYZ77XLmnA9+ixz0d+AYj7ulAbDTc04GYaLqnA7GwcE8HYmDpng7M5QSQ3z7H
+  </data>
+ </layer>
+ <layer name="Collision" width="128" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzt1TEOgDAMQ9HCysD9b8seAYXK4KT6T+oa0jhAawAAAAAAAPUtAwcYlWmf4rM3Yd3eHR1zyDL3DM5msDsaKazq/+Kqtzf5f3lPRe3sGUR/7c5dfd7/ufX2i/zn9eT7EvNfhSdS1lb0k517XuTv5Z4X+Xs5ZnQA3XcCig==
   </data>
  </layer>
 </map>
