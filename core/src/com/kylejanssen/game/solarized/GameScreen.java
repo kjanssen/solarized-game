@@ -99,7 +99,9 @@ public class GameScreen implements Screen {
         // Move player x
         player.x += player.velocity.x * delta;
 
-        if (collisionLayer.getCell(toCell(player.x), toCell(player.y)) != null) {
+        int x = player.velocity.x > 0 ? toCell(player.x + SIZE_TILE) : toCell(player.x);
+
+        if (collisionLayer.getCell(x, toCell(player.y)) != null) {
             player.x = oldX;
             player.velocity.x = 0f;
         }
@@ -107,7 +109,9 @@ public class GameScreen implements Screen {
         // Move player y
         player.y += player.velocity.y * delta;
 
-        if (collisionLayer.getCell(toCell(player.x), toCell(player.y)) != null) {
+        int y = player.velocity.y > 0 ? toCell(player.y + SIZE_TILE) : toCell(player.y);
+
+        if (collisionLayer.getCell(toCell(player.x), y) != null) {
             player.y = oldY;
             if (player.velocity.y < 0) {
                 player.state = Player.PlayerState.STILL;
